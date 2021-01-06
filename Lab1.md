@@ -37,3 +37,8 @@
 - 輸入欲同步之 Azure AD 全域管理員帳號、密碼後，按下「Next」<br>
 
 ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image/image9.jpg)<br>
+
+- 點選「Add Directory」 > 選擇「Create new AD account」 > 輸入您具有 ENTERPRISE ADMIN 權限的帳號 > 按下「OK」。<br>
+
+![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image/image10.jpg)<br>
+
