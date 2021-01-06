@@ -19,6 +19,8 @@ Azure AD Connect 是一種 Microsoft 工具，其設計目的是要符合並完�
 
 # Azure AD Connect 安裝必要條件
 
+## 環境要求
+
 - Azure AD Connect 必須安裝在已加入網域的 Windows Server 2012 或更新版本上。<br>
 - Azure AD Connect 無法安裝在2019之前的 Small Business Server 或 Windows Server Essentials () 支援 Windows Server Essentials 2019。 伺服器必須使用 Windows Server Standard 或以上版本。
 - Azure AD Connect 伺服器必須已安裝完整的 GUI。 不支援在 Windows Server Core 上安裝 Azure AD Connect。<br>
@@ -28,3 +30,13 @@ Azure AD Connect 是一種 Microsoft 工具，其設計目的是要符合並完�
   - 您必須設定 TLS/SSL 憑證。 如需詳細資訊，請參閱在 AD FS 中管理 AD FS 和管理 ssl 憑證的 ssl/TLS 通訊協定和加密套件。<br>
   - 您必須設定名稱解析。<br>
 - 如果您的全域管理員已啟用 MFA，則 URL https://secure.aadcdn.microsoftonline-p.com 必須 在 [信任的網站] 清單中。 當系統提示您提供 MFA 挑戰，但尚未新增之前，系統會提示您將此網站新增至 [信任的網站] 清單。 您可以使用 Internet Explorer 將它新增到信任的網站。
+
+## 元件要求
+
+Azure AD Connect 需要 Microsoft PowerShell 和 .NET Framework 4.5.1。 您需要在伺服器上安裝此版本或更新版本。 視您的 Windows Server 版本而定，採取下列動作：<br>
+- Windows Server 2012 R2<br>
+  - 預設會安裝 Microsoft PowerShell。 您不需要執行任何動作。<br>
+  - .NET Framework 4.5.1 和更新版本會透過 Windows Update 提供。 請確定您已在主控台中安裝最新的 Windows Server 更新。<br>
+- Windows Server 2012<br>
+  - 您可以從 Microsoft 下載中心取得的 Windows Management Framework 4.0 提供最新版本的 microsoft PowerShell。<br>
+  - 您可以從 Microsoft 下載中心取得 .NET Framework 4.5.1 和更新版本。<br>
