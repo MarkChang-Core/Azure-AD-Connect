@@ -16,15 +16,15 @@
 
 - 進入Microsoft 365 admin center之後，選擇刀鋒視窗(Blade)中的「設定」>「網域」。<br>
 
-![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/image2/imag2.jpg)<br>
+![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/image2/image2.jpg)<br>
 
 - 進入網域設定之後，選擇「+ 新增網域」。<br>
 
-![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/image2/imag3.jpg)<br>
+![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/image2/image3.jpg)<br>
 
 - 輸入所需要設定的網域名稱，並點選下方的「使用此網域」。<br>
 
-![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/image2/imag4.jpg)<br>
+![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/image2/image4.jpg)<br>
 
 - 接下來進入到網域驗證的環節，此處Microsoft必須驗證網域所有權，而要驗證操作的人是否為管理員，<br>
 
@@ -40,7 +40,7 @@
     
     那麼等待DNS的紀錄值生效會需要4 - 24小時，甚至更久。<br>
     
-    ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/image2/imag5.jpg)<br>
+    ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/image2/image5.jpg)<br>
     
   - **將指定文字新增到對應Domain的網址的指定路徑之中 - **<br>
 
@@ -52,7 +52,7 @@
     
     因此當然這個方式會比起DNS更快速，但前提是必須要取得網頁伺服器的管理權限才可以進行。
     
-    ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/image2/imag6.jpg)<br>
+    ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/image2/image6.jpg)<br>
     
     
     
