@@ -9,3 +9,4 @@
 ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image/image3.jpg)<br>
 - 開啟 IE 瀏覽器，輸入網址 https://go.microsoft.com/fwlink/?LinkId=615771 進行Azure AD Connect的下載。<br>
 ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image/image4.jpg)<br>
+
