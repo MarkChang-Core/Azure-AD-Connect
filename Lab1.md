@@ -58,7 +58,19 @@
 
   ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image/image13.jpg)<br>
 
-- 選擇「Sync selected domains and OUs」，並選擇您希望同步的OU後，按下「Next」前往下一步設定。<br>
+- 選擇「Sync selected domains and OUs」，並選擇預計同步的OU後，按下「Next」前往下一步設定。<br>
 
 ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image/image14.jpg)<br>
+
+- 直接按下「Next」。<br>
+
+![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image/image15.jpg)<br>
+
+- 如需要對 name / DN 等屬性進行篩選可於此設定，若無則保持 Synchronize all users and devices，並點擊「Next」繼續。
+
+![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image/image16.jpg)<br>
+
+- 直接按下「Next」。<br>
+
+![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image/image17.jpg)<br>
 
