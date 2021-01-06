@@ -1,2 +1,0 @@
-# AADC
-Azure AD Connect
