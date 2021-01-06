@@ -40,3 +40,22 @@ Azure AD Connect 需要 Microsoft PowerShell 和 .NET Framework 4.5.1。 您需�
 - Windows Server 2012<br>
   - 您可以從 Microsoft 下載中心取得的 Windows Management Framework 4.0 提供最新版本的 microsoft PowerShell。<br>
   - 您可以從 Microsoft 下載中心取得 .NET Framework 4.5.1 和更新版本。<br>
+
+## Azure AD Connect 的硬體需求
+
+下表顯示 Azure AD Connect 同步電腦的最低需求。<br>
+
+|    **Active Directory 中的物件數目   | **CPU | **Memory | **Disk |
+| ----------------- | --- | --- | --- |
+| 少於 10,000 個 | 1.6 GHz | 4 GB | 70 GB |
+| 10,000–50,000 個 | 1.6 GHz | 4 GB | 70 GB |
+| 50,000–100,000 個 | 1.6 GHz | 16 GB | 100 GB |
+
+若為100000或更多物件，則需要 SQL Server 的完整版本。<br>
+
+|    **Active Directory 中的物件數目   | **CPU | **Memory | **Disk |
+| ----------------- | --- | --- | --- |
+| 100,000–300,000 個 | 1.6 GHz | 32 GB | 300 GB |
+| 300,000–600,000 個 | 1.6 GHz | 32 GB | 450 GB |
+| 超過 600,000 個 | 1.6 GHz | 32 GB | 500 GB |
+
