@@ -17,3 +17,14 @@ Azure AD Connect 是一種 Microsoft 工具，其設計目的是要符合並完�
 - 單一工具即可提供輕鬆進行同步處理和登入的部署經驗。<br>
 - 提供您案例的最新功能。 Azure AD Connect 會取代舊版的身分識別整合工具，如 DirSync 和 Azure AD Sync。如需詳細資訊，請參閱 混合式身分識別目錄整合工具比較。<br>
 
+# Azure AD Connect 安裝必要條件
+
+- Azure AD Connect 必須安裝在已加入網域的 Windows Server 2012 或更新版本上。<br>
+- Azure AD Connect 無法安裝在2019之前的 Small Business Server 或 Windows Server Essentials () 支援 Windows Server Essentials 2019。 伺服器必須使用 Windows Server Standard 或以上版本。
+- Azure AD Connect 伺服器必須已安裝完整的 GUI。 不支援在 Windows Server Core 上安裝 Azure AD Connect。<br>
+- 如果您使用 Azure AD Connect wizard 來管理 Active Directory 同盟服務 (AD FS 設定，Azure AD Connect 伺服器就不能群組原則啟用 PowerShell 轉譯。 如果您使用 Azure AD Connect wizard 來管理同步處理設定，則可以啟用 PowerShell 轉譯。<br>
+- 如果正在部署 AD FS：
+  安裝 AD FS 或 Web 應用程式 Proxy 的伺服器必須是 Windows Server 2012 R2 或更新版本。 Windows 遠端管理 ，才能執行遠端安裝。<br>
+  您必須設定 TLS/SSL 憑證。 如需詳細資訊，請參閱在 AD FS 中管理 AD FS 和管理 ssl 憑證的 ssl/TLS 通訊協定和加密套件。<br>
+  您必須設定名稱解析。<br>
+- 如果您的全域管理員已啟用 MFA，則 URL https://secure.aadcdn.microsoftonline-p.com 必須 在 [信任的網站] 清單中。 當系統提示您提供 MFA 挑戰，但尚未新增之前，系統會提示您將此網站新增至 [信任的網站] 清單。 您可以使用 Internet Explorer 將它新增到信任的網站。
