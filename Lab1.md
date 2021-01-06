@@ -52,8 +52,13 @@
   
   ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image/image12.jpg)<br>
   
-  - 若您的狀態顯示為 Not Add，則請參考 [此步驟](https://github.com/MarkChang-Core/AADC/blob/main/Lab2.md) 進行 Azure AD 自訂網域設置 - <br>
+  - 若狀態顯示為 Not Add，則請參考 [此步驟](https://github.com/MarkChang-Core/AADC/blob/main/Lab2.md) 進行 Azure AD 自訂網域設置 - <br>
+  
+    但若不想在這個階段就進行自訂網域設定，也可以勾選 **Continue without matching all UPN suffixes to verified domains** 後繼續操作。
 
   ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image/image13.jpg)<br>
 
+- 選擇「Sync selected domains and OUs」，並選擇您希望同步的OU後，按下「Next」前往下一步設定。<br>
+
+![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image/image14.jpg)<br>
 
