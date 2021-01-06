@@ -54,5 +54,9 @@
     
     ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/image2/image6.jpg)<br>
     
+- 完成驗證設定後，若有使用Microsoft 365的相關其他服務(如Exchange Online / Teams...)，即可點擊「繼續」，若無則可點擊關閉。
+
+![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/image2/image7.jpg)<br>
     
+
     
