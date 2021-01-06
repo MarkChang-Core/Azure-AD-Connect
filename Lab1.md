@@ -33,3 +33,7 @@
 - 勾選 **雜湊密碼同步** - 「Password Hash Synchronization」後，按下「Next」。
 
 ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image/image8.jpg)<br>
+
+- 輸入欲同步之 Azure AD 全域管理員帳號、密碼後，按下「Next」<br>
+
+![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image/image9.jpg)<br>
