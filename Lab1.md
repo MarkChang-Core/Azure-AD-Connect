@@ -42,3 +42,10 @@
 
 ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image/image10.jpg)<br>
 
+- 確認AD樹系已通過驗證。<br>
+
+![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image/image11.jpg)<br>
+
+
+
+
