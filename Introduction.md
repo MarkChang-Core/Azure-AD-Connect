@@ -59,4 +59,6 @@ Azure AD Connect 需要 Microsoft PowerShell 和 .NET Framework 4.5.1。 您需�
 | 300,000–600,000 個 | 1.6 GHz | 32 GB | 450 GB |
 | 超過 600,000 個 | 1.6 GHz | 32 GB | 500 GB |
 
-更多詳細資料請參考：[Microsoft Azure AD Connect](https://docs.microsoft.com/zh-tw/azure/active-directory/hybrid/whatis-azure-ad-connect#what-is-azure-ad-connect-health)
+更多詳細資料請參考：[Microsoft Azure AD Connect](https://docs.microsoft.com/zh-tw/azure/active-directory/hybrid/whatis-azure-ad-connect#what-is-azure-ad-connect-health)<br>
+
+開始建立 Azure AD Connect，請前往 [Lab 1](____)
