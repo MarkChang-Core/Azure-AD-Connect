@@ -9,4 +9,12 @@
 ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image/image3.jpg)<br>
 - 開啟 IE 瀏覽器，輸入網址 https://go.microsoft.com/fwlink/?LinkId=615771 進行Azure AD Connect的下載。<br>
 ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image/image4.jpg)<br>
-
+- 下載完成後，開啟AzureADConnect.exe，進行安裝。<br>
+- 勾選「I agree to the License terms and privacy notes.」，點選「Continue」。<br>
+![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image/image5.jpg)<br>
+- 選擇「Customize」以繼續安裝。<br>
+![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image/image6.jpg)<br>
+- 選擇「Install」以繼續安裝流程。<br>
+![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image/image7.jpg)<br>
+- 勾選 **雜湊密碼同步** - 「Password Hash Synchronization」後，按下「Next」。
+![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image/image8.jpg)<br>
