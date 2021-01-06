@@ -46,13 +46,13 @@
 
 ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image/image11.jpg)<br>
 
-- 此步驟請確認Windows AD Domain Service樹系名稱一致，且Azure AD Domain狀態為「Verified」，請點選「Next」進行下一步。
+- 此步驟請確認Windows AD Domain Service樹系名稱一致，且Azure AD Domain狀態為「Verified」，請點選「Next」進行下一步。<br>
   
-  - 此為設定狀態成功畫面
+  - 正常狀態於此步驟 Azure AD Domain 狀態應該是 Verified 狀態 - <br>
   
   ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image/image12.jpg)<br>
   
-  - 若您的狀態顯示為 Not Add，則請參考 [此步驟](https://github.com/MarkChang-Core/AADC/blob/main/Lab2.md) 進行 Azure AD 自訂網域設置。
+  - 若您的狀態顯示為 Not Add，則請參考 [此步驟](https://github.com/MarkChang-Core/AADC/blob/main/Lab2.md) 進行 Azure AD 自訂網域設置 - <br>
 
   ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image/image13.jpg)<br>
 
