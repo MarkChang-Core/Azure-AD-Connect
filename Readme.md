@@ -69,7 +69,7 @@ Azure AD Connect 需要 Microsoft PowerShell 和 .NET Framework 4.5.1。 您需�
 
 - 若是透過Azure AD Connect抄寫至Azure AD的使用者，其驗證將是發生在Azure AD之上。<br>
 
-- Azure AD Connect通常會建置在與Windows AD同個網段中，但若是Windows AD的Loading非常Lite，也有些案例會將其建置於Windows AD之中。<br>
+- Azure AD Connect會建置在與Windows AD同個網段中、但不同Server(VM)中，但若Windows AD的Loading非常Lite，也可考慮建置於同個Windows AD。<br>
 
 - 若情境中的Windows AD是建置於Azure VM之中，仍舊需要建置Azure AD Connect方可將名單目錄抄寫至Azure AD之中。<br>
 
