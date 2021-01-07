@@ -63,12 +63,16 @@ Azure AD Connect 需要 Microsoft PowerShell 和 .NET Framework 4.5.1。 您需�
 
 ### 你可以參考的事情 (2020.12.11)
 
-- Azure AD Connect並不是雙向同步的工具，而是將Windows AD中的名單目錄單向抄寫至Azure AD之中。
-- 如果先透過了Azure AD建立使用者後，再建置Windows AD，那麼透過Azure AD Connect是無法將使用者同步回到Windows AD的。
-- 若是透過Azure AD Connect抄寫至Azure AD的使用者，其驗證將是發生在Azure AD之上。
-- Azure AD Connect只是Agent的角色且佈署容易，因此通常不會為此建立Backup或是DR的Solution，但的確可考慮將其作為Snapshot或Image讓re-deploy更快速。
-- Azure AD Connect通常會建置在與Windows AD同個網段的另外一台虛擬機，但若是Windows AD的Loading非常Lite，也有些案例會將其直接建置於Windows AD之中。
-- 若情境中的Windows AD是建置於Azure VM之中，仍舊需要建至Azure AD Connect方可將名單目錄抄寫至Azure AD之中。
-- 純雲端的AD環境，可以考慮直接將身分建置於Azure AD中，如此便不需要建至Azure AD Connect，但會需要建置Azure AD Domain Service作為Domain Controller。
+- Azure AD Connect並不是雙向同步的工具，而是將Windows AD中的名單目錄單向抄寫至Azure AD之中。<br>
+
+- 如果先透過了Azure AD建立使用者、再建置Windows AD，那麼Azure AD Connect將無法將使用者同步回到Windows AD的。<br>
+
+- 若是透過Azure AD Connect抄寫至Azure AD的使用者，其驗證將是發生在Azure AD之上。<br>
+
+- Azure AD Connect通常會建置在與Windows AD同個網段中，但若是Windows AD的Loading非常Lite，也有些案例會將其建置於Windows AD之中。<br>
+
+- 若情境中的Windows AD是建置於Azure VM之中，仍舊需要建置Azure AD Connect方可將名單目錄抄寫至Azure AD之中。<br>
+
+- 純雲端的AD環境，可考慮將身分建置於Azure AD中，不需要建置Azure AD Connect，但仍會需要建置Azure AD Domain Service作為Domain Controller。<br>
 
 開始建立 Azure AD Connect，請前往 [Lab 1](https://github.com/MarkChang-Core/AADC/blob/main/Lab1.md)
