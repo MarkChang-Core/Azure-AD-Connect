@@ -61,7 +61,7 @@ Azure AD Connect 需要 Microsoft PowerShell 和 .NET Framework 4.5.1。 您需�
 
 更多詳細資料請參考：[Microsoft Azure AD Connect](https://docs.microsoft.com/zh-tw/azure/active-directory/hybrid/whatis-azure-ad-connect#what-is-azure-ad-connect-health)<br>
 
-### 你可以參考的事情 (2020.12.11)
+### 其他你可以參考的事情 (2020.12.11)
 
 - Azure AD Connect並不是雙向同步的工具，而是將Windows AD中的名單目錄單向抄寫至Azure AD之中。<br>
 
@@ -73,6 +73,6 @@ Azure AD Connect 需要 Microsoft PowerShell 和 .NET Framework 4.5.1。 您需�
 
 - 若情境中的Windows AD是建置於Azure VM之中，仍舊需要建置Azure AD Connect方可將名單目錄抄寫至Azure AD之中。<br>
 
-- 純雲端的AD環境，可考慮將身分建置於Azure AD中，不需要建置Azure AD Connect，但仍會需要建置Azure AD Domain Service作為Domain Controller。<br>
+- 純雲端的AD環境，可考慮將身分建置於Azure AD中，不需要建置Azure AD Connect，但可評估建置Azure AD Domain Service。<br>
 
 開始建立 Azure AD Connect，請前往 [Lab 1](https://github.com/MarkChang-Core/AADC/blob/main/Lab1.md)
