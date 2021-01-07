@@ -4,18 +4,30 @@
 
 重啟之後有時會遭遇到 Azure AD Connect出現錯誤，你可能會透過Azure AD Connect Health收到警示，<br>
 
-也可能通過Azure AD Connect發現到錯誤訊息，這個錯誤的畫面通常會是 - <br>
-
-![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image4/image5.jpg)<br>
+也可能通過Azure AD Connect發現到錯誤訊息。<br>
 
 這個障礙的原因可能有幾種 - <br>
 
   1. 全域管理員於定期更改密碼後，未同步更新於Azure AD Connect。<br>
      
-     在這個狀況下，請直接啟動Azure AD Connect後，更新密碼即可解決此一問題，如果忘記設定的全域管理員帳號，<br>
+     在這個狀況下，請直接啟動Azure AD Connect後，更新密碼即可解決此一問題。<br>
      
-     則可透過cmd，移至 **%ProgramFiles%\Microsoft Azure AD Sync\UIShell\** 中，執行 **Miisclient.exe**<br>
-     
-  2. Windows Server的Services中的Azure ADSync可能停止服務。<br>
+     但如果忘記設定的全域管理員帳號，則可依據以下步驟操作 - <br>
   
+     - 透過cmd，移至 **%ProgramFiles%\Microsoft Azure AD Sync\UIShell\** 中，執行 **Miisclient.exe**<br>
+     
+       ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image4/image5.jpg)<br>
+     
+     - 接著選取「連接器」，然後按兩下 Azure Active Directory 連接器後選取「連接」。
+  
+       ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image4/image6.jpg)<br>
+  
+     - 此處的「UserName」值，即是用來設定目錄同步處理的全域系統管理員帳戶。
+       
+       ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image4/image7.jpg)<br>
+       
+  2. Windows Server的Services中的Azure ADSync可能停止服務。<br>
+      
+     ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image4/image8.jpg)<br>
+      
   3. 
