@@ -30,6 +30,8 @@ Azure AD Connect主要是針對OU或篩選過後的使用者進行同步，但�
 以下將針對上述情境進行 Synchronization Rule Editor 的操作。<br>
 
 
-## 設定 Synchronization Rule Editor
+### 設定 Synchronization Rule Editor
 
-- 
+- 當您安裝完成Azure AD Connect之後，在Azure AD Connect路徑之下可以找到Synchronization Rule Editor
+
+![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image3/image1.jpg)
