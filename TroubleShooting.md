@@ -16,8 +16,12 @@
   
   ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image4/image3.jpg)<br>
 
+- 當抄寫狀態出現異常時，也會收到由 azure-noreply@microsoft.com 寄出的Alert，其中也包含建議的動作等資訊。<br>
+
+  ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image4/image4.jpg)<br>
+
 ### 常見的Azure AD Connect障礙問題與解決方式
 
 - Azure AD Connect 重啟後，收到告警顯示「Sync Service not running」 - [請點我了解]()
 
-- 如何停止 Azure AD Connect的同步 - [請點我了解]()
+- 如何停止 Azure AD Connect抄寫? - [請點我了解]()
