@@ -8,14 +8,15 @@
 
      而重啟之後有時會遭遇到 Azure AD Connect出現錯誤 -    
       
-     ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image4/image5.jpg)<br>
+     ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/image5/image5.jpg)<br>
      
      這很有可能是Microsoft Azure ADSync這項Services停止服務，此時可以依據以下步驟操作 - 
      
      a. 在「開始」中，選取「執行」，並輸入 services.msb
      
-     ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image4/image6.jpg)<br>
+     ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/image5/image6.jpg)<br>
      
+     b. 
      
   3. 同步使用之帳號遭到移除 或 同步使用之系統管理員密碼遭到修改，或是帳號遺失。<br>
      
@@ -23,12 +24,12 @@
   
      - 透過cmd，移至 %ProgramFiles%\Microsoft Azure AD Sync\UIShell\ 中，執行 **Miisclient.exe**<br>
      
-       ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image4/image5.jpg)<br>
+       ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/image5/image5.jpg)<br>
      
      - 接著選取「連接器」，然後按兩下 Azure Active Directory 連接器後選取「連接」。
   
-       ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image4/image6.jpg)<br>
+       ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/image5/image6.jpg)<br>
   
      - 此處的「UserName」值，即是用來設定目錄同步處理的全域系統管理員帳戶。
        
-       ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image4/image7.jpg)<br>
+       ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/image5/image7.jpg)<br>
