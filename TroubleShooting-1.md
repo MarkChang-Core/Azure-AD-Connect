@@ -1,4 +1,4 @@
-# Azure AD Connect 重啟後，收到告警顯示「Sync Service not running」
+# Azure Active Directory 目錄同步處理停止
 
 這個障礙的原因可能有幾種 - <br>
 
@@ -16,7 +16,9 @@
      
      ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/image5/image6.jpg)<br>
      
-     b. 
+     b. 找到 Microsoft Azure AD Sync，點擊右鍵選擇Start，等待Status顯示為Running即可再次嘗試同步。<br>
+     
+     ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/image5/image7.jpg)<br>     
      
   3. 同步使用之帳號遭到移除 或 同步使用之系統管理員密碼遭到修改，或是帳號遺失。<br>
      
