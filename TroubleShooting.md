@@ -22,6 +22,6 @@
 
 ### 常見的Azure AD Connect障礙問題與解決方式
 
-- Azure AD Connect 重啟後，收到告警顯示「Sync Service not running」 - [請點我了解]()
+- Azure Active Directory 目錄同步處理停止 - [請點我了解](https://github.com/MarkChang-Core/AADC/blob/main/TroubleShooting-1.md)
 
 - 如何停止 Azure AD Connect抄寫? - [請點我了解]()
