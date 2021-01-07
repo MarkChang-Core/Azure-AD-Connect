@@ -52,4 +52,4 @@ Azure AD Connect主要是針對OU或篩選過後的使用者進行同步，但�
 
 ### 驗證屬性同步狀況
 
-  修改完成後，可以在下次同步後觀察Azure AD中的同步狀況，若成功的話，可以發現同步上來的User已經可以順利指派Exchange Online mailbox。
+  修改完成後，可以在下次同步後觀察Azure AD中的同步狀況，若成功的話，抄寫至Azure AD的User應可順利指派Exchange Online mailbox。
