@@ -32,6 +32,24 @@ Azure AD Connect主要是針對OU或篩選過後的使用者進行同步，但�
 
 ### 設定 Synchronization Rule Editor
 
-- 當您安裝完成Azure AD Connect之後，在Azure AD Connect路徑之下可以找到Synchronization Rule Editor
+- 當您安裝完成Azure AD Connect之後，在Azure AD Connect路徑之下可以找到Synchronization Rule Editor<br>
 
-![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image3/image1.jpg)
+  ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image3/image1.jpg)<br>
+
+- 開啟 Synchronization Rule Editor 後，找到 **Infrom AD - User Exchange**，接著點選下方的Edit。<br>
+
+  ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image3/image2.jpg)<br>
+
+- 開啟編輯模式後，選擇左側的Transformations，並找尋「msExchMailboxGuid」，接著將前方的FlowType更改為Expression，<br>
+
+  並勾選後方的Apply Once，並將Source欄位中的值修改為**AuthoritativeNull**，修改完成後點選下方的「Save」<br>
+  
+  ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image3/image3.jpg)<br>
+  
+- 儲存完成後，會出現Warning，內容主要描述為這項修改會在下次同步時被執行，如此便完成。
+
+  ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/Image3/image4.jpg)<br>
+
+### 驗證屬性同步狀況
+
+  修改完成後，可以在下次同步後觀察Azure AD中的同步狀況，若成功的話，可以發現同步上來的User已經可以順利指派Exchange Online mailbox。
