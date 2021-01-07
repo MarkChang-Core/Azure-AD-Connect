@@ -40,7 +40,7 @@
      
        ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/image5/image9.jpg)<br>
      
-     - 接著選取「Connectors」，然後左鍵雙擊「Windows Azure Active Directory (Microsoft)」後選則「Connectivity」。<br>
+     - 接著選取「Connectors」，然後左鍵雙擊「Windows Azure Active Directory (Microsoft)」後選擇Connectivity」。<br>
      
        此處的「UserName」值，即是用來設定目錄同步處理的全域系統管理員帳戶。<br>
   
