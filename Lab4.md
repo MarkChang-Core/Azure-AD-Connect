@@ -14,11 +14,15 @@
 
 - 請開啟 Windows Server 中的 Active Directory -<br>
 
+![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/image2/image1.jpg)<br>
+
 - 點擊上方的 「檢視(View)」 > 「進階功能(Advance Feature)」<br>
 
 - 找到您需要編輯的使用者，對其點選右鍵，選擇「內容(Properties)」<br>
 
 - 找到頁籤中的「屬性編輯器(Attribute Editor)」，並找尋 屬性 proxyAddress 後，點選 編輯(Edit)<br>
 
-- 輸入別名為 smtp:user01@youralias.com<br>
+- 輸入別名為 smtp:user01@youralias.com 後，點選「增加(Add)」，再點選「確定(OK)」
+
+   ** 請留意，此處 ```smtp:``` 代表郵件別名，而 ```SMTP:``` 則代表主要電子郵件，大、小寫請特別留意。**
 
