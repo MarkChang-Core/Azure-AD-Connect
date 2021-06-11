@@ -36,6 +36,8 @@
 
 接下來，等待30分鐘使其自行同步至Azure AD之中，您便會看到該位使用者已擁有別名 -
 
+![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/image6/image6.jpg)<br>
+
 此外，您也可以透過指令，於On-premise的Active Directory之中執行 - 
 
 ```Start-ADSyncSyncCycle -PolicyType Delta```
