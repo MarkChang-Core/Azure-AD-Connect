@@ -1,4 +1,4 @@
-#關於 Windows AD 如何新增別名
+# 關於 Windows AD 如何新增別名
 
 由於許多使用者於完成Azure AD Connect後，會將On-premise的AD屬性抄寫至Azure AD之中，<br>
 
