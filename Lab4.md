@@ -30,7 +30,7 @@
 
 - 輸入別名為 smtp:user01@youralias.com 後，點選「增加(Add)」，再點選「確定(OK)」
 
-   ** 請留意，此處 ```smtp:``` 代表郵件別名，而 ```SMTP:``` 則代表主要電子郵件，大、小寫請特別留意。**
+  **請留意，此處 ```smtp:``` 代表郵件別名，而 ```SMTP:``` 則代表主要電子郵件，大、小寫請特別留意。**
 
 ![GITHUB](https://github.com/MarkChang-Core/AADC/blob/main/image6/image5.jpg)<br>
 
