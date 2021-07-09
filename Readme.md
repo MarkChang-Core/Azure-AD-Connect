@@ -17,6 +17,14 @@ Azure AD Connect 是一種 Microsoft 工具，其設計目的是要符合並完�
 - 單一工具即可提供輕鬆進行同步處理和登入的部署經驗。<br>
 - 提供您案例的最新功能。 Azure AD Connect 會取代舊版的身分識別整合工具，如 DirSync 和 Azure AD Sync。如需詳細資訊，請參閱 混合式身分識別目錄整合工具比較。<br>
 
+# 內部部署 Active Directory 必要版本
+
+- Active Directory 架構版本和樹系功能等級必須是 Windows Server 2003 或更新版本。 只要符合架構版本和樹系層級的需求，網域控制站就可以執行任何版本。<br>
+- 如果您打算使用功能 密碼回寫，則網域控制站必須在 Windows Server 2012 或更新版本上。<br>
+- Azure AD 使用的網域控制站必須為可寫入。 不支援 使用唯讀網域控制站 (RODC) ，而且 Azure AD Connect 不會遵循任何寫入重新導向。<br>
+- 使用內部部署樹系或網域（使用「點點」 (名稱包含句點 "."）。 不支援) NetBIOS 名稱。<br>
+建議您 啟用 Active Directory 回收站。<br>
+
 # Azure AD Connect 安裝必要條件
 
 ### 環境要求
